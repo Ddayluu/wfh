@@ -1,0 +1,8 @@
+{
+    "app_name": "workfromhome",
+    "author": "insite.vn",
+    "main_module": "src/main/python/main.py",
+    "version": "1.3.1",
+    "sentry_dsn": "https://b6054b185d004aa68fcb71d1c6aeb473@sentry.io/5188531",
+    "public_settings": ["sentry_dsn"]
+}

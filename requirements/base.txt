@@ -1,0 +1,8 @@
+fbs
+PyInstaller==3.4
+PyQt5
+opencv-python
+requests
+numpy
+pyqtgraph
+sentry-sdk==0.14.3
