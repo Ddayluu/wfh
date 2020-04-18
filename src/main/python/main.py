@@ -315,9 +315,9 @@ if __name__ == '__main__':
 
 	appctxt = AppContext()       # 1. Instantiate ApplicationContext
 	exit_code = appctxt.run()      # 2. Invoke appctxt.app.exec_()
-	sys.exit(exit_code)
-
 	pr.disable()
-	pr.dumb_stat('wfh_full.prof')
+	pr.dump_stats('wfh_full.prof')
 	# pr.dumb_stat('wfh_without_cam.prof')
 	# pr.dumb_stat('wfh_without_graph.prof')
+
+	sys.exit(exit_code)
